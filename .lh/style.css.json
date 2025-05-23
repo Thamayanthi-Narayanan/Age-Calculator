@@ -1,0 +1,62 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1747984387144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1747984392657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     border-radius: 5px;\r\n     position: relative;\r\n }\r\n .input-box button{\r\n-    background: #d7d7aa;\r\n+    background: #afaad7;\r\n     border: 0;\r\n     outline: 0;\r\n     padding: 15px 30px;\r\n     border-radius: 5px;\r\n"
+                },
+                {
+                    "date": 1747984398406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     border-radius: 5px;\r\n     position: relative;\r\n }\r\n .input-box button{\r\n-    background: #afaad7;\r\n+    background: #ea590b;\r\n     border: 0;\r\n     outline: 0;\r\n     padding: 15px 30px;\r\n     border-radius: 5px;\r\n"
+                },
+                {
+                    "date": 1747984416682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     border-radius: 5px;\r\n     position: relative;\r\n }\r\n .input-box button{\r\n-    background: #ea590b;\r\n+    background: #d7baaa;\r\n     border: 0;\r\n     outline: 0;\r\n     padding: 15px 30px;\r\n     border-radius: 5px;\r\n"
+                },
+                {
+                    "date": 1747984421749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     border-radius: 5px;\r\n     position: relative;\r\n }\r\n .input-box button{\r\n-    background: #d7baaa;\r\n+    background: #ffff76;\r\n     border: 0;\r\n     outline: 0;\r\n     padding: 15px 30px;\r\n     border-radius: 5px;\r\n"
+                },
+                {
+                    "date": 1747984430571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #ffff76;\r\n+    color: #ffa876;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1747984454054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #ffa876;\r\n+    color: #12e74b;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1747984460687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #12e74b;\r\n+    color: #16dc4b8b;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1747984465932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #16dc4b8b;\r\n+    color: #df286e8b;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1747984471585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #df286e8b;\r\n+    color: #df5c28e5;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1747984482350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #df5c28e5;\r\n+    color: #dcdf28e5;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1747984488415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #dcdf28e5;\r\n+    color: #93960be5;\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1747984387144,
+            "name": "Commit-0",
+            "content": "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n    box-sizing: border-box;\r\n}\r\n.container{\r\n    width: 100%;\r\n    min-height: 100vh;\r\n    background-color: rgb(88, 88, 230);\r\n    color: #fff;\r\n    padding: 10px;\r\n}\r\n.calculator{\r\n    width: 100%;\r\n    max-width: 600px;\r\n    margin-left: 10%;\r\n    margin-top: 10%;\r\n}\r\n.calculator h1{\r\n    font-size: 60px;\r\n}\r\n.input-box{\r\n    margin: 40px 0;\r\n    padding: 35px;\r\n    border-radius: 10px;\r\n    background-color: rgba(255, 255, 255, 0.3);\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n.input-box input{\r\n    flex: 1;\r\n    margin-right: 20px;\r\n    padding: 14px 20px;\r\n    border: 0;\r\n    outline: 0;\r\n    font-size: 18px;\r\n    border-radius: 5px;\r\n    position: relative;\r\n}\r\n.input-box button{\r\n    background: #d7d7aa;\r\n    border: 0;\r\n    outline: 0;\r\n    padding: 15px 30px;\r\n    border-radius: 5px;\r\n    font-weight: 500;\r\n    color: #333;\r\n    cursor: pointer;\r\n}\r\n\r\n#result{\r\n    font-size: 20px;\r\n}\r\n#result span{\r\n    color: #ffff76;\r\n}"
+        }
+    ]
+}
