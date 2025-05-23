@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 55,
             "patches": [
                 {
                     "date": 1747984387144,
@@ -52,6 +52,182 @@
                 {
                     "date": 1747984488415,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #dcdf28e5;\r\n+    color: #93960be5;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011321161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,6 @@\n #result{\r\n     font-size: 20px;\r\n }\r\n #result span{\r\n-    color: #93960be5;\r\n-}\n\\ No newline at end of file\n+    color: #f6f87ce5;\r\n+}\r\n"
+                },
+                {
+                    "date": 1748011326460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,4 +54,6 @@\n }\r\n #result span{\r\n     color: #f6f87ce5;\r\n }\r\n+\r\n+@me\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011333492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,5 +55,5 @@\n #result span{\r\n     color: #f6f87ce5;\r\n }\r\n \r\n-@me\n\\ No newline at end of file\n+@media ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011339577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,5 +55,5 @@\n #result span{\r\n     color: #f6f87ce5;\r\n }\r\n \r\n-@media ()\n\\ No newline at end of file\n+@media (min-wid)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011345677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,5 +55,5 @@\n #result span{\r\n     color: #f6f87ce5;\r\n }\r\n \r\n-@media (min-wid)\n\\ No newline at end of file\n+@media (min-width:7)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011353896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,5 +55,7 @@\n #result span{\r\n     color: #f6f87ce5;\r\n }\r\n \r\n-@media (min-width:7)\n\\ No newline at end of file\n+@media (min-width:768px){\r\n+    .\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011359720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,6 +56,6 @@\n     color: #f6f87ce5;\r\n }\r\n \r\n @media (min-width:768px){\r\n-    .\r\n+    .input-b\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011364884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,6 +56,8 @@\n     color: #f6f87ce5;\r\n }\r\n \r\n @media (min-width:768px){\r\n-    .input-b\r\n+    .input-box{\r\n+        fl\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011370017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,7 +57,7 @@\n }\r\n \r\n @media (min-width:768px){\r\n     .input-box{\r\n-        fl\r\n+        flex-direction: row;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011375195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,6 +58,7 @@\n \r\n @media (min-width:768px){\r\n     .input-box{\r\n         flex-direction: row;\r\n+        align-items: ;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011380456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,7 +58,8 @@\n \r\n @media (min-width:768px){\r\n     .input-box{\r\n         flex-direction: row;\r\n-        align-items: ;\r\n+        align-items: center;\r\n     }\r\n+    .\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011386095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,6 +60,6 @@\n     .input-box{\r\n         flex-direction: row;\r\n         align-items: center;\r\n     }\r\n-    .\r\n+    .input-box i\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011391993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,6 +60,8 @@\n     .input-box{\r\n         flex-direction: row;\r\n         align-items: center;\r\n     }\r\n-    .input-box i\r\n+    .input-box input{\r\n+        f\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011397070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,7 +61,7 @@\n         flex-direction: row;\r\n         align-items: center;\r\n     }\r\n     .input-box input{\r\n-        f\r\n+        flex: 1;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011402797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,6 +62,7 @@\n         align-items: center;\r\n     }\r\n     .input-box input{\r\n         flex: 1;\r\n+        margin-right: ;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011414033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,7 +62,8 @@\n         align-items: center;\r\n     }\r\n     .input-box input{\r\n         flex: 1;\r\n-        margin-right: ;\r\n+        margin-right: 20px;\r\n     }\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011419485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,6 +64,6 @@\n     .input-box input{\r\n         flex: 1;\r\n         margin-right: 20px;\r\n     }\r\n-    \r\n+    .input-box b\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011425216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,6 +64,6 @@\n     .input-box input{\r\n         flex: 1;\r\n         margin-right: 20px;\r\n     }\r\n-    .input-box b\r\n+    .input-box button{}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011432047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,6 +64,8 @@\n     .input-box input{\r\n         flex: 1;\r\n         margin-right: 20px;\r\n     }\r\n-    .input-box button{}\r\n+    .input-box button{\r\n+        white-space: ;\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748011437173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,7 +65,7 @@\n         flex: 1;\r\n         margin-right: 20px;\r\n     }\r\n     .input-box button{\r\n-        white-space: ;\r\n+        white-space: nowrap;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748012989434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,5 +67,5 @@\n     }\r\n     .input-box button{\r\n         white-space: nowrap;\r\n     }\r\n-}\n\\ No newline at end of file\n+}\r\n"
+                },
+                {
+                    "date": 1748012996540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,4 +68,6 @@\n     .input-box button{\r\n         white-space: nowrap;\r\n     }\r\n }\r\n+\r\n+@media ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013008009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,5 +69,5 @@\n         white-space: nowrap;\r\n     }\r\n }\r\n \r\n-@media ()\n\\ No newline at end of file\n+@media (max-width;)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013014106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,5 +69,5 @@\n         white-space: nowrap;\r\n     }\r\n }\r\n \r\n-@media (max-width;)\n\\ No newline at end of file\n+@media (max-width: 767)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013020171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,5 +69,5 @@\n         white-space: nowrap;\r\n     }\r\n }\r\n \r\n-@media (max-width: 767)\n\\ No newline at end of file\n+@media (max-width: 767px)[]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013025375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,5 +69,7 @@\n         white-space: nowrap;\r\n     }\r\n }\r\n \r\n-@media (max-width: 767px)[]\n\\ No newline at end of file\n+@media (max-width: 767px){\r\n+    .ca\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013032701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,6 +70,8 @@\n     }\r\n }\r\n \r\n @media (max-width: 767px){\r\n-    .ca\r\n+    .calculator{\r\n+        margin-left: ;\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013039255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,7 +71,8 @@\n }\r\n \r\n @media (max-width: 767px){\r\n     .calculator{\r\n-        margin-left: ;\r\n+        margin-left: 0;\r\n+        margin-top: ;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013045587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,7 +72,8 @@\n \r\n @media (max-width: 767px){\r\n     .calculator{\r\n         margin-left: 0;\r\n-        margin-top: ;\r\n+        margin-top: 50px;\r\n+        p\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013045665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,7 +73,7 @@\n @media (max-width: 767px){\r\n     .calculator{\r\n         margin-left: 0;\r\n         margin-top: 50px;\r\n-        p\r\n+        pa\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013052884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,7 +73,8 @@\n @media (max-width: 767px){\r\n     .calculator{\r\n         margin-left: 0;\r\n         margin-top: 50px;\r\n-        pa\r\n+        padding: 20px;\r\n     }\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013058627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,6 +75,6 @@\n         margin-left: 0;\r\n         margin-top: 50px;\r\n         padding: 20px;\r\n     }\r\n-    \r\n+    .calculator h1{}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013064773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,7 +74,9 @@\n     .calculator{\r\n         margin-left: 0;\r\n         margin-top: 50px;\r\n         padding: 20px;\r\n+    }font-size: 2;\r\n+    .calculator h1{\r\n+\r\n     }\r\n-    .calculator h1{}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013069964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     .calculator{\r\n         margin-left: 0;\r\n         margin-top: 50px;\r\n         padding: 20px;\r\n-    }font-size: 2;\r\n+    }font-\r\n     .calculator h1{\r\n \r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013075616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     .calculator{\r\n         margin-left: 0;\r\n         margin-top: 50px;\r\n         padding: 20px;\r\n-    }font-\r\n+    }\r\n     .calculator h1{\r\n-\r\n+        \r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013081256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,7 +76,7 @@\n         margin-top: 50px;\r\n         padding: 20px;\r\n     }\r\n     .calculator h1{\r\n-        \r\n+        font-size: 2r;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013087023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,7 +76,8 @@\n         margin-top: 50px;\r\n         padding: 20px;\r\n     }\r\n     .calculator h1{\r\n-        font-size: 2r;\r\n+        font-size: 2rem;\r\n+        text-align: ;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013092217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,7 +77,8 @@\n         padding: 20px;\r\n     }\r\n     .calculator h1{\r\n         font-size: 2rem;\r\n-        text-align: ;\r\n+        text-align: center;\r\n     }\r\n+    .in\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013097927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,6 +79,8 @@\n     .calculator h1{\r\n         font-size: 2rem;\r\n         text-align: center;\r\n     }\r\n-    .in\r\n+    .input-box{\r\n+        f\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013103160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,7 +80,8 @@\n         font-size: 2rem;\r\n         text-align: center;\r\n     }\r\n     .input-box{\r\n-        f\r\n+        flex-direction: column;\r\n+        \r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013115731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,7 +81,7 @@\n         text-align: center;\r\n     }\r\n     .input-box{\r\n         flex-direction: column;\r\n-        \r\n+        align-items: stretch;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013122717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,6 +82,7 @@\n     }\r\n     .input-box{\r\n         flex-direction: column;\r\n         align-items: stretch;\r\n+        padding: ;\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013128716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,7 +83,7 @@\n     .input-box{\r\n         flex-direction: column;\r\n         align-items: stretch;\r\n         padding: 20px;\r\n-        g\r\n+        ga\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1748013128889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,7 +83,7 @@\n     .input-box{\r\n         flex-direction: column;\r\n         align-items: stretch;\r\n         padding: 20px;\r\n-        ga\r\n+        gap\r\n     }\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1747984387144,
