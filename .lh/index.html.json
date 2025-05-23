@@ -1,0 +1,18 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1747982435507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1747982435507,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Age Calculator</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <div class=\"container\">\r\n        <div class=\"calculator\">\r\n            <h1>Age Calculator</h1>\r\n            <div class=\"input-box\">\r\n                <input type=\"date\" id=\"date\">\r\n                <button onclick=\"calculateAge()\">Calculate</button>\r\n            </div>\r\n            <p id=\"result\"></p>\r\n        </div>\r\n    </div>\r\n\r\n    <script>\r\n        let userInput = document.getElementById(\"date\");\r\n        // to calculate todays date and past date not the future date\r\n        userInput.max = new Date().toISOString().split(\"T\")[0];\r\n        let result = document.getElementById (\"result\");\r\n        // function for calculating age\r\n\r\n        function calculateAge(){\r\n            let birthDate = new Date(userInput.value); // when we select any date in the input-box that will be stored here\r\n\r\n            // then we need the each information day month and yr\r\n            let d1 = birthDate.getDate(); \r\n            let m1 = birthDate.getMonth() +1; // +1 is for the month will start from the zero\r\n            let y1 = birthDate.getFullYear();\r\n\r\n            // todays date to calculate the diff (current date)\r\n            let today = new Date();\r\n\r\n            let d2 = today.getDate();\r\n            let m2 = today.getMonth() +1;\r\n            let y2 = today.getFullYear();\r\n            \r\n            // save the diff (yr diff)\r\n\r\n            let d3, m3, y3;\r\n\r\n            y3 = y2 - y1;\r\n\r\n            if(m2 >=m1){ // todays month is greater thean birth month\r\n                m3 = m2 - m1;\r\n            }else{\r\n                y3--; // we will dec the value of yrs\r\n                m3 = 12 + m2 - m1;\r\n            }\r\n\r\n            // day diff\r\n\r\n            if (d2 >=d1){\r\n                d3 = d2 - d1;\r\n            }else {\r\n                m3--;\r\n                d3 = getDaysInMonth(y1, m1) + d2 - d1;\r\n            }\r\n            // if the months get negative bcoz we are minusing m3--\r\n            if(m3 < 0){\r\n                m3 = 11;\r\n                y3--; // we will decrease the yr\r\n            }\r\n            result.innerHTML = `You are <span>${y3}</span> years, <span>${m3}</span> months and <span>${d3}</span> days old`;\r\n        }\r\n\r\n        function getDaysInMonth(year,month){\r\n            return new Date(year,month ,0).getDate(); // it will retuen last date of the month\r\n        }\r\n    </script>\r\n</body>\r\n</html>\r\n"
+        }
+    ]
+}
